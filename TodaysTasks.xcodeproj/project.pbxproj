@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC37BB0C240FEF4C006C09C2 /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37BB0B240FEF4C006C09C2 /* ToDoItemView.swift */; };
 		ACB6D8CA240D8F68005D0E7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6D8C9240D8F68005D0E7B /* AppDelegate.swift */; };
 		ACB6D8CC240D8F68005D0E7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6D8CB240D8F68005D0E7B /* SceneDelegate.swift */; };
 		ACB6D8CF240D8F68005D0E7B /* TodaysTasks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACB6D8CD240D8F68005D0E7B /* TodaysTasks.xcdatamodeld */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC37BB0B240FEF4C006C09C2 /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 		ACB6D8C6240D8F68005D0E7B /* TodaysTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodaysTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB6D8C9240D8F68005D0E7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB6D8CB240D8F68005D0E7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				ACB6D8C9240D8F68005D0E7B /* AppDelegate.swift */,
 				ACB6D8CB240D8F68005D0E7B /* SceneDelegate.swift */,
 				ACB6D8D0240D8F68005D0E7B /* ContentView.swift */,
+				AC37BB0B240FEF4C006C09C2 /* ToDoItemView.swift */,
 				ACB6D8E0240D94EA005D0E7B /* ToDoItem.swift */,
 				ACB6D8D2240D8F6C005D0E7B /* Assets.xcassets */,
 				ACB6D8D7240D8F6C005D0E7B /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB6D8CA240D8F68005D0E7B /* AppDelegate.swift in Sources */,
+				AC37BB0C240FEF4C006C09C2 /* ToDoItemView.swift in Sources */,
 				ACB6D8CF240D8F68005D0E7B /* TodaysTasks.xcdatamodeld in Sources */,
 				ACB6D8E1240D94EA005D0E7B /* ToDoItem.swift in Sources */,
 				ACB6D8D1240D8F68005D0E7B /* ContentView.swift in Sources */,
