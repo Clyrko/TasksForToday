@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     
     @Environment(\.managedObjectContext) var managedObjectContext
+    
     @FetchRequest(fetchRequest: ToDoItem.getAllToDoItems()) var toDoItems:FetchedResults<ToDoItem>
     
     @State private var newToDoItem = ""
