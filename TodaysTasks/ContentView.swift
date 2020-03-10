@@ -12,8 +12,6 @@ struct ContentView: View {
     
     @Environment(\.managedObjectContext) var managedObjectContext
     
-    //Error here
-    
     @FetchRequest(fetchRequest: ToDoItem.getAllToDoItems()) var toDoItems:FetchedResults<ToDoItem>
     
     @State private var newToDoItem = ""
